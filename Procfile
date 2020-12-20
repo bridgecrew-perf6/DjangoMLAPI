@@ -1,1 +1,1 @@
-web: gunicorn api.manage --preload --log-level debug
+web: gunicorn api.wsgi --preload --log-level debug
