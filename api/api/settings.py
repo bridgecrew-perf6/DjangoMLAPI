@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'predictor'
+    'predictor',
+    'gunicorn'
 ]
 
 MODELS = os.path.join(BASE_DIR, 'predictor/models')
