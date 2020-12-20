@@ -1,1 +1,1 @@
-web: gunicorn api.manage:runserver --preload --log-level debug
+web: gunicorn api.manage --preload --log-level debug
